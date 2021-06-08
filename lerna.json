@@ -1,0 +1,16 @@
+{
+  "lerna": "3.5.1",
+  "packages": ["packages/*"],
+  "version": "independent",
+  "stream": true,
+  "command": {
+    "publish": {
+      "npmClient": "npm",
+      "allowBranch": "develop",
+      "verifyAccess": false,
+      "message": "chore(release): publish",
+      "registry": "https://registry.npmjs.org/"
+    }
+  },
+  "conventionalCommits": true
+}
