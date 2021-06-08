@@ -6,7 +6,6 @@
   "command": {
     "publish": {
       "npmClient": "npm",
-      "allowBranch": "develop",
       "verifyAccess": false,
       "message": "chore(release): publish",
       "registry": "https://registry.npmjs.org/"
